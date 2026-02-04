@@ -1,0 +1,112 @@
+{
+    "session_id": "fce42ab1-4844-4fe1-a749-be73b2144837",
+    "outputs": [
+        {
+            "inputs": {
+                "input_value": "Generate test cases for fund transfer"
+            },
+            "outputs": [
+                {
+                    "results": {
+                        "message": {
+                            "text_key": "text",
+                            "data": {
+                                "timestamp": "2026-02-04 06:07:32 UTC",
+                                "sender": "Machine",
+                                "sender_name": "AI",
+                                "session_id": "fce42ab1-4844-4fe1-a749-be73b2144837",
+                                "context_id": "",
+                                "text": "Test Case ID: TC_FT_001\nTitle: Verify successful fund transfer within daily limit\nPreconditions: User is logged in with an active account and has sufficient balance\nSteps:\n1. Navigate to Fund Transfer\n2. Enter beneficiary details\n3. Enter amount within daily limit\n4. Submit transaction\n5. Enter OTP sent to registered mobile number\nExpected Result: Transaction completes successfully and confirmation is shown\n\nTest Case ID: TC_FT_002\nTitle: Verify fund transfer failure due to insufficient balance\nPreconditions: User is logged in with an active account and has insufficient balance\nSteps:\n1. Navigate to Fund Transfer\n2. Enter beneficiary details\n3. Enter amount exceeding available balance\n4. Submit transaction\nExpected Result: Error message is displayed indicating insufficient balance\n\nTest Case ID: TC_FT_003\nTitle: Verify fund transfer validation error for invalid beneficiary details\nPreconditions: User is logged in with an active account and has sufficient balance\nSteps:\n1. Navigate to Fund Transfer\n2. Enter invalid beneficiary details\n3. Enter amount within daily limit\n4. Submit transaction\nExpected Result: Error message is displayed indicating invalid beneficiary details\n\nTest Case ID: TC_FT_004\nTitle: Verify fund transfer failure due to daily limit exceedance\nPreconditions: User is logged in with an active account and has sufficient balance\nSteps:\n1. Navigate to Fund Transfer\n2. Enter beneficiary details\n3. Enter amount exceeding daily limit\n4. Submit transaction\nExpected Result: Error message is displayed indicating daily limit exceedance\n\nTest Case ID: TC_FT_005\nTitle: Verify fund transfer failure due to OTP authentication failure\nPreconditions: User is logged in with an active account and has sufficient balance\nSteps:\n1. Navigate to Fund Transfer\n2. Enter beneficiary details\n3. Enter amount within daily limit\n4. Submit transaction\n5. Enter incorrect OTP\nExpected Result: Error message is displayed indicating OTP authentication failure",
+                                "files": [],
+                                "error": false,
+                                "edit": false,
+                                "properties": {
+                                    "text_color": null,
+                                    "background_color": null,
+                                    "edited": false,
+                                    "source": {
+                                        "id": "GroqModel-wAcZG",
+                                        "display_name": "Groq",
+                                        "source": "llama-3.3-70b-versatile"
+                                    },
+                                    "icon": null,
+                                    "allow_markdown": false,
+                                    "positive_feedback": null,
+                                    "state": "complete",
+                                    "targets": []
+                                },
+                                "category": "message",
+                                "content_blocks": [],
+                                "id": "719b6b83-20fb-4396-8188-0832edcc6932",
+                                "flow_id": "fce42ab1-4844-4fe1-a749-be73b2144837",
+                                "duration": null
+                            },
+                            "default_value": "",
+                            "text": "Test Case ID: TC_FT_001\nTitle: Verify successful fund transfer within daily limit\nPreconditions: User is logged in with an active account and has sufficient balance\nSteps:\n1. Navigate to Fund Transfer\n2. Enter beneficiary details\n3. Enter amount within daily limit\n4. Submit transaction\n5. Enter OTP sent to registered mobile number\nExpected Result: Transaction completes successfully and confirmation is shown\n\nTest Case ID: TC_FT_002\nTitle: Verify fund transfer failure due to insufficient balance\nPreconditions: User is logged in with an active account and has insufficient balance\nSteps:\n1. Navigate to Fund Transfer\n2. Enter beneficiary details\n3. Enter amount exceeding available balance\n4. Submit transaction\nExpected Result: Error message is displayed indicating insufficient balance\n\nTest Case ID: TC_FT_003\nTitle: Verify fund transfer validation error for invalid beneficiary details\nPreconditions: User is logged in with an active account and has sufficient balance\nSteps:\n1. Navigate to Fund Transfer\n2. Enter invalid beneficiary details\n3. Enter amount within daily limit\n4. Submit transaction\nExpected Result: Error message is displayed indicating invalid beneficiary details\n\nTest Case ID: TC_FT_004\nTitle: Verify fund transfer failure due to daily limit exceedance\nPreconditions: User is logged in with an active account and has sufficient balance\nSteps:\n1. Navigate to Fund Transfer\n2. Enter beneficiary details\n3. Enter amount exceeding daily limit\n4. Submit transaction\nExpected Result: Error message is displayed indicating daily limit exceedance\n\nTest Case ID: TC_FT_005\nTitle: Verify fund transfer failure due to OTP authentication failure\nPreconditions: User is logged in with an active account and has sufficient balance\nSteps:\n1. Navigate to Fund Transfer\n2. Enter beneficiary details\n3. Enter amount within daily limit\n4. Submit transaction\n5. Enter incorrect OTP\nExpected Result: Error message is displayed indicating OTP authentication failure",
+                            "sender": "Machine",
+                            "sender_name": "AI",
+                            "files": [],
+                            "session_id": "fce42ab1-4844-4fe1-a749-be73b2144837",
+                            "context_id": "",
+                            "timestamp": "2026-02-04T06:07:32+00:00",
+                            "flow_id": "fce42ab1-4844-4fe1-a749-be73b2144837",
+                            "error": false,
+                            "edit": false,
+                            "properties": {
+                                "text_color": null,
+                                "background_color": null,
+                                "edited": false,
+                                "source": {
+                                    "id": "GroqModel-wAcZG",
+                                    "display_name": "Groq",
+                                    "source": "llama-3.3-70b-versatile"
+                                },
+                                "icon": null,
+                                "allow_markdown": false,
+                                "positive_feedback": null,
+                                "state": "complete",
+                                "targets": []
+                            },
+                            "category": "message",
+                            "content_blocks": [],
+                            "duration": null
+                        }
+                    },
+                    "artifacts": {
+                        "message": "Test Case ID: TC_FT_001\n\nTitle: Verify successful fund transfer within daily limit\n\nPreconditions: User is logged in with an active account and has sufficient balance\n\nSteps:\n\n1. Navigate to Fund Transfer\n\n2. Enter beneficiary details\n\n3. Enter amount within daily limit\n\n4. Submit transaction\n\n5. Enter OTP sent to registered mobile number\n\nExpected Result: Transaction completes successfully and confirmation is shown\n\nTest Case ID: TC_FT_002\n\nTitle: Verify fund transfer failure due to insufficient balance\n\nPreconditions: User is logged in with an active account and has insufficient balance\n\nSteps:\n\n1. Navigate to Fund Transfer\n\n2. Enter beneficiary details\n\n3. Enter amount exceeding available balance\n\n4. Submit transaction\n\nExpected Result: Error message is displayed indicating insufficient balance\n\nTest Case ID: TC_FT_003\n\nTitle: Verify fund transfer validation error for invalid beneficiary details\n\nPreconditions: User is logged in with an active account and has sufficient balance\n\nSteps:\n\n1. Navigate to Fund Transfer\n\n2. Enter invalid beneficiary details\n\n3. Enter amount within daily limit\n\n4. Submit transaction\n\nExpected Result: Error message is displayed indicating invalid beneficiary details\n\nTest Case ID: TC_FT_004\n\nTitle: Verify fund transfer failure due to daily limit exceedance\n\nPreconditions: User is logged in with an active account and has sufficient balance\n\nSteps:\n\n1. Navigate to Fund Transfer\n\n2. Enter beneficiary details\n\n3. Enter amount exceeding daily limit\n\n4. Submit transaction\n\nExpected Result: Error message is displayed indicating daily limit exceedance\n\nTest Case ID: TC_FT_005\n\nTitle: Verify fund transfer failure due to OTP authentication failure\n\nPreconditions: User is logged in with an active account and has sufficient balance\n\nSteps:\n\n1. Navigate to Fund Transfer\n\n2. Enter beneficiary details\n\n3. Enter amount within daily limit\n\n4. Submit transaction\n\n5. Enter incorrect OTP\n\nExpected Result: Error message is displayed indicating OTP authentication failure",
+                        "sender": "Machine",
+                        "sender_name": "AI",
+                        "files": [],
+                        "type": "object"
+                    },
+                    "outputs": {
+                        "message": {
+                            "message": "Test Case ID: TC_FT_001\nTitle: Verify successful fund transfer within daily limit\nPreconditions: User is logged in with an active account and has sufficient balance\nSteps:\n1. Navigate to Fund Transfer\n2. Enter beneficiary details\n3. Enter amount within daily limit\n4. Submit transaction\n5. Enter OTP sent to registered mobile number\nExpected Result: Transaction completes successfully and confirmation is shown\n\nTest Case ID: TC_FT_002\nTitle: Verify fund transfer failure due to insufficient balance\nPreconditions: User is logged in with an active account and has insufficient balance\nSteps:\n1. Navigate to Fund Transfer\n2. Enter beneficiary details\n3. Enter amount exceeding available balance\n4. Submit transaction\nExpected Result: Error message is displayed indicating insufficient balance\n\nTest Case ID: TC_FT_003\nTitle: Verify fund transfer validation error for invalid beneficiary details\nPreconditions: User is logged in with an active account and has sufficient balance\nSteps:\n1. Navigate to Fund Transfer\n2. Enter invalid beneficiary details\n3. Enter amount within daily limit\n4. Submit transaction\nExpected Result: Error message is displayed indicating invalid beneficiary details\n\nTest Case ID: TC_FT_004\nTitle: Verify fund transfer failure due to daily limit exceedance\nPreconditions: User is logged in with an active account and has sufficient balance\nSteps:\n1. Navigate to Fund Transfer\n2. Enter beneficiary details\n3. Enter amount exceeding daily limit\n4. Submit transaction\nExpected Result: Error message is displayed indicating daily limit exceedance\n\nTest Case ID: TC_FT_005\nTitle: Verify fund transfer failure due to OTP authentication failure\nPreconditions: User is logged in with an active account and has sufficient balance\nSteps:\n1. Navigate to Fund Transfer\n2. Enter beneficiary details\n3. Enter amount within daily limit\n4. Submit transaction\n5. Enter incorrect OTP\nExpected Result: Error message is displayed indicating OTP authentication failure",
+                            "type": "text"
+                        }
+                    },
+                    "logs": {
+                        "message": []
+                    },
+                    "messages": [
+                        {
+                            "message": "Test Case ID: TC_FT_001\n\nTitle: Verify successful fund transfer within daily limit\n\nPreconditions: User is logged in with an active account and has sufficient balance\n\nSteps:\n\n1. Navigate to Fund Transfer\n\n2. Enter beneficiary details\n\n3. Enter amount within daily limit\n\n4. Submit transaction\n\n5. Enter OTP sent to registered mobile number\n\nExpected Result: Transaction completes successfully and confirmation is shown\n\nTest Case ID: TC_FT_002\n\nTitle: Verify fund transfer failure due to insufficient balance\n\nPreconditions: User is logged in with an active account and has insufficient balance\n\nSteps:\n\n1. Navigate to Fund Transfer\n\n2. Enter beneficiary details\n\n3. Enter amount exceeding available balance\n\n4. Submit transaction\n\nExpected Result: Error message is displayed indicating insufficient balance\n\nTest Case ID: TC_FT_003\n\nTitle: Verify fund transfer validation error for invalid beneficiary details\n\nPreconditions: User is logged in with an active account and has sufficient balance\n\nSteps:\n\n1. Navigate to Fund Transfer\n\n2. Enter invalid beneficiary details\n\n3. Enter amount within daily limit\n\n4. Submit transaction\n\nExpected Result: Error message is displayed indicating invalid beneficiary details\n\nTest Case ID: TC_FT_004\n\nTitle: Verify fund transfer failure due to daily limit exceedance\n\nPreconditions: User is logged in with an active account and has sufficient balance\n\nSteps:\n\n1. Navigate to Fund Transfer\n\n2. Enter beneficiary details\n\n3. Enter amount exceeding daily limit\n\n4. Submit transaction\n\nExpected Result: Error message is displayed indicating daily limit exceedance\n\nTest Case ID: TC_FT_005\n\nTitle: Verify fund transfer failure due to OTP authentication failure\n\nPreconditions: User is logged in with an active account and has sufficient balance\n\nSteps:\n\n1. Navigate to Fund Transfer\n\n2. Enter beneficiary details\n\n3. Enter amount within daily limit\n\n4. Submit transaction\n\n5. Enter incorrect OTP\n\nExpected Result: Error message is displayed indicating OTP authentication failure",
+                            "sender": "Machine",
+                            "sender_name": "AI",
+                            "session_id": "fce42ab1-4844-4fe1-a749-be73b2144837",
+                            "stream_url": null,
+                            "component_id": "ChatOutput-HYVJJ",
+                            "files": [],
+                            "type": "text"
+                        }
+                    ],
+                    "timedelta": null,
+                    "duration": null,
+                    "component_display_name": "Chat Output",
+                    "component_id": "ChatOutput-HYVJJ",
+                    "used_frozen_result": false
+                }
+            ]
+        }
+    ]
+}
